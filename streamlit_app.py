@@ -26,7 +26,7 @@ def get_gdp_data():
     raw_gdp_df = pd.read_csv(DATA_FILENAME)
 
     MIN_YEAR = 1960
-    MAX_YEAR = 2024
+    MAX_YEAR = 2023
 
     # The data above has columns like:
     # - Country Name
@@ -66,8 +66,8 @@ gdp_df = get_gdp_data()
 '''
 # :earth_americas: GDP dashboard
 
-Browse GDP data from the [World Bank Open Data](https://data.worldbank.org/) website. As you'll
-notice, the data only goes to 2022 right now, and datapoints for certain years are often missing.
+This website is made by Utkarsh Browse GDP data from the [World Bank Open Data](https://data.worldbank.org/) website. As you'll
+notice, the data only goes to 2023 right now, and datapoints for certain years are often missing.
 But it's otherwise a great (and did I mention _free_?) source of data.
 '''
 
